@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Golden Palate</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div>
+        <h1>Golden Palate</h1>
+        <p class="app-tagline">Fine dining delivered with a thoughtful, modern menu.</p>
+      </div>
+      <div class="header-actions">
+        <button id="nav-home" class="nav-button">Home</button>
+        <button id="nav-menu" class="nav-button">Menu</button>
+        <button id="nav-cart" class="nav-button">Cart <span id="cart-count">0</span></button>
+        <button id="nav-history" class="nav-button">Orders</button>
+        <button id="nav-profile" class="nav-button">Profile</button>
+      </div>
+    </header>
+
+    <main id="app-root" class="app-root"></main>
+
+    <footer class="app-footer">
+      <p>Frontend-only restaurant ordering demo · No backend required · LocalStorage powered</p>
+    </footer>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
