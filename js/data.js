@@ -1,4 +1,4 @@
-export const menuItems = [
+window.menuItems = [
   {
     id: 'margherita',
     name: 'Margherita Pizza',
